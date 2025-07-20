@@ -29,12 +29,9 @@ const socialMedia = [
 const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
 
 const openWhatsApp = () => {
-  const number = "918355959472";
+const number = "918355959472";
   const message = "Hi, I would like to know more about your RK lighting services!";
-  // window.open(`https://wa.me/${number}?text=${encodeURIComponent(message)}`, "_blank");
-  // const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
-  const baseUrl = isMobile ? "https://wa.me" : "https://web.whatsapp.com/send";
-  const url = `${baseUrl}?phone=${number}&text=${encodeURIComponent(message)}`;
+  const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 };
 
