@@ -7,7 +7,7 @@ export const CTA = () => {
   const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
 
 const openWhatsApp = () => {
-  const number = "919021744981";
+  const number = "918355959472";
   const message = "Hi, I would like to know more about your RK lighting services!";
   // window.open(`https://wa.me/${number}?text=${encodeURIComponent(message)}`, "_blank");
   // const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
