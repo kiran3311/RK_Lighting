@@ -4,7 +4,7 @@ import { Paragraph } from "../shared/Paragraph";
 
 export const CTA = () => {
 
-  const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
+ // const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
 
 const openWhatsApp = () => {
 const number = "918355959472";
