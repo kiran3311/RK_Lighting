@@ -26,7 +26,7 @@ const socialMedia = [
   }
 ]
 
-const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
+//const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
 
 const openWhatsApp = () => {
 const number = "918355959472";
