@@ -1,10 +1,22 @@
+import { useState } from "react";
 import { pricingPlans } from "../../utils/pricing-plan";
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
+import ImageCarousel from "../cards/ImageCarousel";
 
 export const Pricing = () => {
+
+
+
+  const openWhatsApp = (message : any) => {
+  const number = "918355959472";
+  //const message = "Hi, I would like to know more about your RK lighting services!";
+  const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
   return (
     <section id="pricing" className="py-5">
       {" "}
@@ -32,8 +44,13 @@ export const Pricing = () => {
                       Best Value
                     </div>
                   )} */}
-                  
-                  <img src={plan.image} alt={plan.image} className="w-100 h-100 rounded-2xl pt-1.5 lg:w-full"></img>
+
+                  {/* <img src={plan.image} alt={plan.image} className="w-100 h-100 rounded-2xl pt-1.5 lg:w-full"></img> */}
+
+                  <ImageCarousel 
+                    images={plan.images} 
+                    title={plan.title} 
+                  />
                   {/* <p className="mt-4 text-4xl font-bold text-heading-1">
                     {" "}
                     {plan.price}
@@ -51,8 +68,8 @@ export const Pricing = () => {
                     ))}
                   </ul>
                   <div className="mt-8">
-                    <Button className="w-full transform transition-transform duration-300 hover:scale-105 text-white">
-                      {plan.price}
+                    <Button className="w-full transform transition-transform duration-300 hover:scale-105 text-white" onClick={()=>{openWhatsApp(plan.title)}}>
+                      {/* {plan.price} */} View More
                     </Button>
                   </div>
                 </div>

@@ -16,12 +16,14 @@ import product15  from "../../public/assets/product/product15.jpg"
 import product16  from "../../public/assets/product/product16.png"
 //import product17  from "../../public/assets/product/product17.png"
 import product18  from "../../public/assets/product/product18.png"
-
+import product19  from "../../public/assets/product/product19.jpeg"
+import product20  from "../../public/assets/product/product20.jpeg"
+import product21  from "../../public/assets/product/product21.jpeg"
 export const pricingPlans = [
   {
     title: "1903 YJC Gel Pixel",
     price: "₹440.00",
-    image:product2, 
+    images:[product2], 
     desc:"2811 ",  
     features: [
       "1903 YJC Gel Pixel start with blue",
@@ -34,7 +36,7 @@ export const pricingPlans = [
     {
     title: "2811 Pixel PVC Belt",
     price: "₹670.00",
-    image:product14, 
+    images:[product14], 
     desc:"2811 ",  
     features: [
       "2811 Pixel pvc 20/40 feet",
@@ -47,7 +49,7 @@ export const pricingPlans = [
     {
     title: "100 bulb 100 feet series",
     price: "₹1200.00",
-    image:product15, 
+    images:[product15], 
     desc:"2811 ",  
     features: [
       "100 bulb 100 feet with maharaja wire",
@@ -60,7 +62,7 @@ export const pricingPlans = [
     {
     title: "Nutral cut controller",
     price: "₹360.00",
-    image:product13, 
+    images:[product13], 
     desc:"2811 ",  
     features: [
       "APP base WiFi Master-Slave auto sync ",
@@ -76,7 +78,7 @@ export const pricingPlans = [
   {
     title: "All in one Pixel HD wifi Multilanguage-Animation Controller with SD card",
     price: "₹750.00",
-    image:product12, 
+    images:[product12], 
     features: [
       "Unlimited design and Animation",
       "Use: Building, Road, 3D gate,Round Gate,Floor, Animation board",
@@ -87,32 +89,33 @@ export const pricingPlans = [
     
   },
   {
-    title: "Enterprise",
-    price: "₹799.00",
-    image:product16, 
+    title: "12x24 Polysheet 1.5 mm Thickness",
+    price: "₹3800.00",
+    images:[product16, product19], 
     features: [
-      "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 premium support",
+      "Brand - Sunrise",
+      "Size - 2x2 feet",
+      "Holes - 288",
+      "Ready setup",
     ],
   },
 
     {
-    title: "Enterprise",
-    price: "₹799.00",
-    image:product11, 
+    title: "WiFi Multilanguage 40 Port Parallel HD Pixel Controller - Mobile APP Based ",
+    price: "845.00",
+    images:[product11, product21], 
     features: [
-      "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 premium support",
+      "Easy to use",
+      "Control through  Mobile APP",
+      "Support for ALL Language -",
+      "accessible to Voice speak Languages.",
+      "HD animation - Multi-layered Designs."
     ],
   },
     {
     title: "5 Volt DC power Supply",
     price: "₹799.00",
-    image:product18, 
+    images:[product18], 
     features: [
        "Rain proof power supply",
       "Available in 60A/70A/80A/100A",
@@ -122,12 +125,25 @@ export const pricingPlans = [
     {
     title: "ALL in one Universal 20 Port HD parallel DMX Controller with SD card ",
     price: "₹799.00",
-    image:product10, 
+    images:[product10], 
     features: [
       "Any Time AUTO Sync (LED Easy App)",
       "Use For : Gate, Building, Temple, Road celling, Floor, Jhalar, Thoranam, Chakri and many more function.",
       "Just change Design file and run"
       
+    ],
+  },
+
+    {
+    title: "WiFi Multilanguage 24 Port Parallel HD Pixel Controller - Mobile APP Based ",
+    price: "845.00",
+    images:[ product20], 
+    features: [
+      "Easy to use - Control through  Mobile APP.",
+      "Support for ALL Language - accessible to Voice speak Languages.",
+      "HD animation - Multi-layered Designs",
+      "size 50 - 100 in length",
+     
     ],
   },
 ];

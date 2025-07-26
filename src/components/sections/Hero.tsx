@@ -3,8 +3,11 @@ import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Numbers } from "./Numbers";
 import image2 from "../../../public/assets/images/image2.png"
+import { useState } from "react";
 
 export const Hero = () => {
+
+  const[custEmail, setCustemail] = useState('')
   return (
     <section className="relative pt-32 lg:pt-36">
       {" "}
@@ -68,6 +71,8 @@ export const Hero = () => {
                   type="email"
                   placeholder="johndoe@gmail.com"
                   className="w-full py-3 outline-none bg-transparent"
+                  onChange={(e)=>{setCustemail(e.target.value)}}
+                  value={custEmail}
                 />
                 <Button className="min-w-max text-white">
                   <span className="relative z-[5]">Send Enquiry</span>
