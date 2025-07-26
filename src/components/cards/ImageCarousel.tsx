@@ -9,7 +9,7 @@ const ImageCarousel = ({ images , title } : any) => {
       <img 
         src={images} 
         alt={title} 
-        className="w-full h-48 object-cover rounded-2xl pt-1.5"
+        className="w-full h-58 object-cover rounded-2xl pt-1.5"
       />
     );
   }
@@ -20,7 +20,7 @@ const ImageCarousel = ({ images , title } : any) => {
       <img 
         src={images[0]} 
         alt={title} 
-        className="w-full h-48 object-cover rounded-2xl pt-1.5"
+        className="w-full h-58 object-cover rounded-2xl pt-1.5"
       />
     );
   }

@@ -19,6 +19,9 @@ import product18  from "../../public/assets/product/product18.png"
 import product19  from "../../public/assets/product/product19.jpeg"
 import product20  from "../../public/assets/product/product20.jpeg"
 import product21  from "../../public/assets/product/product21.jpeg"
+import product22  from "../../public/assets/product/product22.jpeg"
+import product23  from "../../public/assets/product/product23.jpeg"
+import product24  from "../../public/assets/product/product24.jpeg"
 export const pricingPlans = [
   {
     title: "1903 YJC Gel Pixel",
@@ -144,6 +147,45 @@ export const pricingPlans = [
       "HD animation - Multi-layered Designs",
       "size 50 - 100 in length",
      
+    ],
+  },
+      {
+    title: "ALL in One 3000 Pixel HD Wi-Fi Multilanguage- Multisize Design Animation  Controller with SD Card - Mobile APP Controller || ऑल इन वन 3000 पिक्सेल एचडी वाई-फाई बहुभाषी - एसडी कार्ड के साथ बहु-आकार डिज़ाइन एनीमेशन नियंत्रक - मोबाइल ऐप नियंत्रक",
+    price: "845.00",
+    images:[ product23], 
+    features: [
+      "Size:  8x375 / 10x300 / 12x250/ 16x180/ 20×150 / 25×120/ 50×60 / 75 x 40 Pixels (Total 3000 Pixels)",
+      "Unlimited Design and Animation ",
+      "Free Software: Wi-Fi ",
+      "Use: Building, Road, 3D Gate,  Round Gate, Floor, Animation Board - Multipurpose Use. ",
+     
+    ],
+  },
+   {
+    title: "2D / 3D WiFi Master-Slave Real Time Auto Sync Nutral Cut Controller without SD Card- Mobile APP Based  || 2D / 3D वाईफाई मास्टर-स्लेव रियल टाइम ऑटो सिंक न्यूट्रल कट कंट्रोलर   - मोबाइल ऐप आधारित",
+    price: "845.00",
+    images:[ product24], 
+    features: [
+      "Use:  2D/ 3D Road Ceiling, Building, Temple ALL in ONE ",
+      "Wi-Fi HD Real Time Sync Controller--",
+      "Any Size pixel  ",
+      "Wire Free....",
+     "No common power supply...",
+     "Just plug and play..",
+     "Speed Control ",
+     "Size 50 - 100 - 150 - 200 - 250 or upto 1000 Pixel in Length"
+    ],
+  },
+     {
+    title: "2811 Pixel Belt",
+    images:[ product22], 
+    features: [
+      "Available Sizes: 20 feet / 40 feet",
+      "Material: PVC wire with heavy-quality belt",
+      "Fittings: Comes with durable holder",
+      "Connections: Z connection / S connection",
+     "Customization: Belts can be customized as per customer requirements",
+    
     ],
   },
 ];
