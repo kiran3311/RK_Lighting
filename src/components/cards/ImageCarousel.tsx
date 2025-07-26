@@ -9,7 +9,7 @@ const ImageCarousel = ({ images , title } : any) => {
       <img 
         src={images} 
         alt={title} 
-        className="w-full h-58 object-cover rounded-2xl pt-1.5"
+        className="w-full h-80 object-cover rounded-2xl pt-1.5"
       />
     );
   }
@@ -20,7 +20,7 @@ const ImageCarousel = ({ images , title } : any) => {
       <img 
         src={images[0]} 
         alt={title} 
-        className="w-full h-58 object-cover rounded-2xl pt-1.5"
+        className="w-full h-80 object-cover rounded-2xl pt-1.5"
       />
     );
   }
@@ -44,7 +44,7 @@ const ImageCarousel = ({ images , title } : any) => {
         <img 
           src={images[currentImageIndex]} 
           alt={`${title} - Image ${currentImageIndex + 1}`}
-          className="w-full h-48 object-cover transition-all duration-300"
+          className="w-full h-80 object-cover transition-all duration-300"
         />
         
         {/* Navigation Arrows - Only show on hover for multiple images */}
@@ -55,7 +55,7 @@ const ImageCarousel = ({ images , title } : any) => {
                      group-hover:opacity-100 transition-opacity duration-200 hover:bg-black/70"
           aria-label="Previous image"
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4" fill="white" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
@@ -67,7 +67,7 @@ const ImageCarousel = ({ images , title } : any) => {
                      group-hover:opacity-100 transition-opacity duration-200 hover:bg-black/70"
           aria-label="Next image"
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4" fill="white" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>
